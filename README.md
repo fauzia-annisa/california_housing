@@ -39,22 +39,18 @@ The MATLAB result (0.4605) comes from a different sample (5,000 rows), a differe
 
 **MATLAB.** A scatter of longitude vs latitude coloured by absolute error, with outliers removed:
 
-![MATLAB error map](images/error_map_filtered.png)
+![MATLAB error map](error_map_filtered.png)
 
 ## Repository layout
 
 ```
 .
 ├── README.md
-├── notebooks/
-│   └── california_housing.ipynb
-├── matlab/
-│   └── error_map.m
-├── data/
-│   └── cali.csv
-└── images/
-    ├── error_map_filtered.png
-    └── folium_error_map.png
+├── california_housing.ipynb
+├── error_map.m
+├── cali.csv
+├── error_map_filtered.png
+└── error_map_filtered_ss.jpg
 ```
 
 ## How to run
